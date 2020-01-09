@@ -156,3 +156,20 @@ hr{
   padding:0;
 }
  
+.todo-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+  height:100vh;
+  
+}
+.todo-box ul{
+  list-style: circle;
+  
+}
+.todo-heading{
+  color:#be467c;
+  text-decoration:underline
+}
