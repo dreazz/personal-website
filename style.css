@@ -91,6 +91,9 @@ section.testimonials .button {
   justify-content: center;
   margin-bottom: 5rem;
 }
+#header i{
+  margin:7px;
+}
 
 .home-logo {
   
@@ -150,6 +153,7 @@ hr {
   padding: 0;
 }
 
+/******************* TODO **********************/
 .todo-box {
   display: flex;
   flex-direction: column;
