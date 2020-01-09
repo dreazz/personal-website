@@ -3,6 +3,7 @@
 html {
   box-sizing: border-box;
 }
+
 *, *:before, *:after {
   box-sizing: inherit;
 }
@@ -69,11 +70,12 @@ body {
   background-color: #fff;
 }
 
-a{
-  color:#bc007b;
+a {
+  color: #bc007b;
 }
-a:hover{
-  color:black;
+
+a:hover {
+  color: black;
 }
 
 /* ---- section ---- */
@@ -83,93 +85,85 @@ section.testimonials .button {
 }
 
 /************************/
-#header{
-  display:flex;
+
+#header {
+  display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-bottom: 5rem;
 }
 
-.home-logo{
-  position: absolute; 
-  top:0;
-  left:0;
-  margin-left:1rem;
-  margin-top:1rem;
-  color:#ff4d4d;
-
+.home-logo {
+  
+  color: #ff4d4d;
 }
 
-.my_image{
-  width:15%;
-  min-width:120px;
-  margin:0 auto;
+.my_image {
+  width: 15%;
+  min-width: 120px;
+  margin: 0 auto;
 }
 
-.my_image img{
+.my_image img {
   width: 100%;
-  border-radius:15%;
+  border-radius: 15%;
   -webkit-animation: spin .8s infinite linear;
-    animation: spin .8s infinite linear
+  animation: spin .8s infinite linear
 }
-.my_image img:hover{
-  border:5px solid #bc007b;;
-  transform:rotate(360deg);
+
+.my_image img:hover {
+  border: 5px solid #bc007b;
+  ;
+  transform: rotate(360deg);
   -webkit-transition-duration: 1s;
- -moz-transition-duration: 1s;
- -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
   transition-duration: 1s;
-  
- 
 }
 
-
-#about-me{
+#about-me {
   text-align: center;
 }
 
-#about-me h3{
-    color:#bc007b;
-  
+#about-me h3 {
+  color: #bc007b;
 }
 
-#about-me p{
-  margin:0 1rem;
+#about-me p {
+  margin: 0 1rem;
 }
 
-hr{
-  width:50%;
- 
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #bc007b;
-     
+hr {
+  width: 50%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #bc007b;
 }
 
-#contact-me{
+#contact-me {
   text-align: center;
 }
 
-.icon-links{
-  display:flex;
+.icon-links {
+  display: flex;
   justify-content: space-around;
   list-style: none;
-  padding:0;
+  padding: 0;
 }
- 
-.todo-box{
+
+.todo-box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width:100%;
-  height:100vh;
-  
+  width: 100%;
+  height: 100vh;
 }
-.todo-box ul{
+
+.todo-box ul {
   list-style: circle;
-  
 }
-.todo-heading{
-  color:#be467c;
-  text-decoration:underline
+
+.todo-heading {
+  color: #be467c;
+  text-decoration: underline
 }
